@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+*::selection{
+    color: white;
+    background-color: black;
+}
+.hero{
+    min-height: 100vh;
+    width: 100%;
+    padding: 0 2vw;
+    padding-top: 28vh;
+    position: relative;
+    background-color: #F7F7F7;
+}
+.hero h1{
+    text-transform: uppercase;
+    font-size: 15.5vw;
+    font-family: "futura";
+    line-height: 14vw;
+    letter-spacing: -0.5vw;
+}
+.video-container{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    /* background-color: grey; */
+}
+.video-container video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.video-container .play{
+    padding: 3vw 2vw;
+    background-color: black;
+    color: white;
+    font-size: 1.3vw;
+    position: fixed;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-family: futura;
+    opacity: 0;
+    scale: 0;
+}
